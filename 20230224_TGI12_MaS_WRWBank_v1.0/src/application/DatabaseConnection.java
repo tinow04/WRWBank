@@ -12,9 +12,9 @@ public class DatabaseConnection {
 	
 	public Connection getConnection() {
 		String databaseName = "pocbase";
-		String databaseUser = "root";
-		String databasePassword = "SQL187M1e38!";
-		String url = "jdbc:mysql://localhost/" + databaseName;
+		String databaseUser = "";
+		String databasePassword = "!";
+		String url = "" + databaseName;
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
